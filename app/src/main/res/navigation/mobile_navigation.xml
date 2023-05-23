@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_about">
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.myapplication.ui.informacion.InformacionFragment"
+        android:label="@string/menu_informativo"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_quienes_somos"
+        android:name="com.example.myapplication.ui.quienes_somos.QuienesSomosFragment"
+        android:label="@string/menu_quienes_somos"
+        tools:layout="@layout/fragment_quienes_somos" />
+
+    <fragment
+        android:id="@+id/nav_contactenos"
+        android:name="com.example.myapplication.ui.contactenos.ContactenosFragment"
+        android:label="@string/menu_contactenos"
+        tools:layout="@layout/fragment_contactenos" />
+
+    <fragment
+        android:id="@+id/nav_solicitud_pedido"
+        android:name="com.example.myapplication.ui.pedido.PedidoFragment"
+        android:label="@string/menu_solicitud_pedido"
+        tools:layout="@layout/fragment_pedido" />
+
+    <fragment
+        android:id="@+id/nav_registrar_cliente"
+        android:name="com.example.myapplication.ui.registro_cliente.RegistroClienteFragment"
+        android:label="@string/menu_registrar_cliente"
+        tools:layout="@layout/fragment_registro_cliente" />
+
+    <fragment
+        android:id="@+id/nav_listado_producto"
+        android:name="com.example.myapplication.ui.consulta_producto.ConsultaProductoFragment"
+        android:label="@string/menu_listado_producto"
+        tools:layout="@layout/fragment_consulta_producto" />
+
+    <fragment
+        android:id="@+id/nav_consulta_cliente"
+        android:name="com.example.myapplication.ui.consulta_cliente.ConsultaClienteFragment"
+        android:label="@string/menu_consulta_cliente"
+        tools:layout="@layout/fragment_consulta_cliente" />
+
+    <fragment
+        android:id="@+id/nav_administrador_usuario"
+        android:name="com.example.myapplication.ui.administrador.AdministradorUsuarioFragment"
+        android:label="Registrar Usuario"
+        tools:layout="@layout/fragment_administrador_usuario" />
+
+    <fragment
+        android:id="@+id/nav_administrador_producto"
+        android:name="com.example.myapplication.ui.administrador.AdministradorProductoFragment"
+        android:label="Registrar Producto"
+        tools:layout="@layout/fragment_administrador_producto" />
+
+    <fragment
+        android:id="@+id/nav_administrador_mod_producto"
+        android:name="com.example.myapplication.ui.administrador.AdministradorModProductoFragment"
+        android:label="Modificar Producto"
+        tools:layout="@layout/fragment_administrador_mod_producto" />
+
+    <fragment
+        android:id="@+id/nav_administrador_consulta_producto"
+        android:name="com.example.myapplication.ui.administrador.AdministradorConsultaProductoFragment"
+        android:label="Consulta Producto"
+        tools:layout="@layout/fragment_administrador_consulta_producto" />
+
+    <fragment
+        android:id="@+id/nav_administrador_eliminar_producto"
+        android:name="com.example.myapplication.ui.administrador.AdministradorEliminarFragment"
+        android:label="Eliminar Producto"
+        tools:layout="@layout/fragment_administrador_eliminar_producto" />
+
+    <fragment
+        android:id="@+id/nav_administrador_consulta_lista_producto"
+        android:name="com.example.myapplication.ui.administrador.AdministradorConsultaListaProductoFragment"
+        android:label="Consulta Lista Producto"
+        tools:layout="@layout/fragment_administrador_consulta_lista_producto" />
+
+</navigation>

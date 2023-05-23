@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_information"
+            android:title="@string/menu_about" />
+        <item
+            android:id="@+id/nav_quienes_somos"
+            android:icon="@drawable/ic_menu_quienes"
+            android:title="@string/menu_quienes_somos" />
+        <item
+            android:id="@+id/nav_contactenos"
+            android:icon="@drawable/ic_menu_contactenos"
+            android:title="@string/menu_contactenos" />
+        <!--<item
+            android:id="@+id/nav_solicitud_pedido"
+            android:icon="@drawable/ic_menu_solicitud"
+            android:title="@string/menu_solicitud_pedido" />-->
+
+        <item
+            android:id="@+id/nav_listado_producto"
+            android:icon="@drawable/ic_menu_listado"
+            android:title="@string/menu_listado_producto" />
+
+    </group>
+</menu>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Tarea 2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_informativo">Informativo</string>
+    <string name="menu_contactenos">Contactenos</string>
+    <string name="menu_quienes_somos">Quienes Somos</string>
+    <string name="menu_about">Informativo</string>
+    <string name="menu_administrador">Administrador</string>
+    <string name="menu_consulta_cliente">Consultado Cliente</string>
+    <string name="menu_listado_producto">Listado de Producto</string>
+    <string name="menu_solicitud_pedido">Solicitud Pedido</string>
+    <string name="menu_registrar_cliente">Registrar Cliente</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="inicio_usuario">Correo</string>
+    <string name="inicio_contrasenia">Constraseña</string>
+    <string name="inicio_boton_sesion">Inicio Sesion</string>
+
+    <string name="txt_id">Codigo del Producto</string>
+    <string name="txt_nombre">Descripcion del Producto</string>
+    <string name="txt_precio">Precio del Producto</string>
+    <string name="bt_ingresar_producto">Registrar Productos</string>
+    <string name="bt_ingresar_usuario">Registrar Usuarios</string>
+    <string name="bt_modificar_producto">Modificar Productos</string>
+    <string name="bt_eliminar_productos">Eliminar Productos</string>
+    <string name="bt_consulta_productos">Consultar Productos</string>
+    <string name="bt_consulta_lista_productos">Consultar Lista Productos</string>
+</resources>

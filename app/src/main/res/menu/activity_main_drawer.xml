@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_information"
+            android:title="@string/menu_about" />
+        <item
+            android:id="@+id/nav_quienes_somos"
+            android:icon="@drawable/ic_menu_quienes"
+            android:title="@string/menu_quienes_somos" />
+        <item
+            android:id="@+id/nav_contactenos"
+            android:icon="@drawable/ic_menu_contactenos"
+            android:title="@string/menu_contactenos" />
+        <!--<item
+            android:id="@+id/nav_solicitud_pedido"
+            android:icon="@drawable/ic_menu_solicitud"
+            android:title="@string/menu_solicitud_pedido" />-->
+
+        <item
+            android:id="@+id/nav_listado_producto"
+            android:icon="@drawable/ic_menu_listado"
+            android:title="@string/menu_listado_producto" />
+        <item
+            android:id="@+id/nav_administrador"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_administrador"  >
+            <menu>
+                <item android:id="@+id/nav_administrador_usuario" android:icon="@drawable/ic_menu_registrar_cliente" android:title="Registrar Usuario"  />
+                <item android:id="@+id/nav_administrador_producto" android:icon="@drawable/ic_menu_registrar_cliente" android:title="Registrar Producto"  />
+                <item android:id="@+id/nav_administrador_mod_producto" android:icon="@drawable/ic_menu_solicitud" android:title="Modificar Producto"  />
+                <item android:id="@+id/nav_administrador_consulta_producto" android:icon="@drawable/ic_menu_consulta" android:title="Consulta Producto"  />
+                <item android:id="@+id/nav_administrador_eliminar_producto" android:icon="@drawable/ic_menu_solicitud" android:title="Eliminar Producto"  />
+                <item android:id="@+id/nav_administrador_consulta_lista_producto" android:icon="@drawable/ic_menu_consulta" android:title="Consulta Lista Producto"  />
+                <item
+                    android:id="@+id/nav_registrar_cliente"
+                    android:icon="@drawable/ic_menu_registrar_cliente"
+                    android:title="@string/menu_registrar_cliente" />
+                <item
+                    android:id="@+id/nav_consulta_cliente"
+                    android:icon="@drawable/ic_menu_buscar_cliente"
+                    android:title="@string/menu_consulta_cliente" />
+            </menu>
+
+        </item>
+    </group>
+</menu>
